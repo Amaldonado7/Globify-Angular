@@ -1,0 +1,46 @@
+@media (min-width: 400px) {
+  :host {
+		display: flex;
+		height: 100%;
+		width: 20px;
+    &.active {
+			width: 20%;
+    }
+  }
+
+  .desktop-nav {
+    height: 100%;
+		width: 100%;
+    background-color: #1a1a1a;
+    color: #cccccc;
+    transition: width 0.5s ease-in-out;
+		display:none;
+
+    &.active {
+			display:block;
+    }
+
+    a {
+      padding: 5px 20px;
+      text-decoration: none;
+      font-size: 0.8em;
+      color: #cccccc;
+      display: block;
+
+      &:hover {
+        background-color: #333333;
+      }
+
+      &.active {
+        background-color: #333333;
+        color: #f37037;
+      }
+    }
+
+    h5, h4 {
+      margin-bottom: 27px;
+      font-weight: 400;
+      padding: 0 20px;
+    }
+  }
+}

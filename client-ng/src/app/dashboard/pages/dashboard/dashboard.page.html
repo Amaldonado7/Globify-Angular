@@ -1,0 +1,6 @@
+<gl-sidebar (toggle)="toggleSection()"></gl-sidebar>
+  <section [class.big]="toggle" class="artist-section">
+    <gl-header></gl-header>
+    <gl-artist [toggle]="toggle" (getArtistAlbums)="getArtistAlbums($event)"></gl-artist>
+  </section>
+<gl-album [idSelected]="idSelected"></gl-album>

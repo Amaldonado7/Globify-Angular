@@ -1,0 +1,28 @@
+@media (min-width: 400px) {
+  :host {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    height: 15vh;
+
+    .search-nav {
+			display: flex;
+			height: 100%;
+			width: 100%;
+    }
+
+    .menu-top-mobile {
+      display: none;
+    }
+
+    .gl-logo {
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      width: 50%;
+      float: left;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+:host{
+  .main-title {
+    font-size: 35px;
+    color: #fff;
+    align-self: center;
+    @media screen and (max-width: 735px) {
+        display: none;
+    }
+  }
+}

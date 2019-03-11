@@ -1,0 +1,36 @@
+:host {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+	align-items: center;
+	align-content: center;
+
+  .search-box {
+    padding: 0 70px;
+
+    input {
+      padding: 8px 8px 8px 40px;
+      color: #fff;
+      font-size: 18px;
+      background: none;
+      outline: none;
+      border-radius: 25px;
+      border: 1px solid #f37037;
+    }
+  }
+
+  .search-input {
+    position: relative;
+
+    i {
+      color: #fff;
+      position: absolute;
+      left: 12px;
+      top: 8px;
+    }
+  }
+
+  .search {
+    width: 70%;
+  }
+}

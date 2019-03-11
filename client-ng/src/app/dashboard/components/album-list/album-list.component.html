@@ -1,0 +1,7 @@
+<section [class.selected]="album === selectedAlbum" (click)=clicked(album)>
+<i class="fas fa-caret-right"></i>
+<img [src]=album.image alt="album-image" class="album-img">
+<span class="album-name">{{album.name}}</span>
+</section>
+  <gl-track-list *ngIf="album === selectedAlbum" [albumId]="album.id"></gl-track-list>
+

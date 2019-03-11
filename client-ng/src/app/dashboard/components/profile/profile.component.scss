@@ -1,0 +1,27 @@
+.profile {
+  padding: 30px 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .thumb-box {
+    width: 30%;
+    display: inline-block;
+
+    img {
+      border-radius: 50%;
+      width: 70px;
+    }
+  }
+
+  div {
+    width: 70%;
+  }
+
+  p {
+    font-size: 15px;
+    width: 65%;
+  }
+}
+

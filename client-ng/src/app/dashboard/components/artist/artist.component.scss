@@ -1,0 +1,38 @@
+:host {
+	width: 100%;
+	height: 60vh;
+
+  h1 {
+    font-size: 50px;
+    font-weight: 300;
+    color: #cccccc;
+    margin-left: 5%;
+    margin-bottom: 30px;
+    height: 5vh;
+  }
+
+  .artist{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    overflow-y: auto;
+    width: 100%;
+    height: 55vh;
+
+    li{
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+			align-items: center;
+			margin: 1%;
+			margin-bottom: 5%;
+
+			&.big {
+				width: 20%;
+			}
+    }
+  }
+}
+

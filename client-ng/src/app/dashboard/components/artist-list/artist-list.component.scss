@@ -1,0 +1,34 @@
+:host {
+  list-style: none;
+  transition: all 0.3s ease;
+  color: #cccccc;
+  width: 30%;
+	height: 30%;
+	display:flex;
+
+  &.active {
+    background-color: #333333;
+  }
+
+  .artist-list {
+		height: 100%;
+    width: 100%;
+    cursor: pointer;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+    h4 {
+      text-align: center;
+      font-weight: 400;
+      font-size: 19px;
+      margin-top: 5%;
+    }
+
+    .img-box {
+      width: 12vw;
+      border-radius: 150px;
+    }
+  }
+}

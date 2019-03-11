@@ -4,7 +4,7 @@ Now the same app that i've done in Vanilla js, is in Angular. You can login your
 
 ## I invite you to localhost another version of the app :) 
 
-Once you download this .zip, rememember to install all the dependences. So, in the terminal:
+Once you download this .zip, remember to install all the dependences. So, in the terminal:
 
 ```python
 npm install

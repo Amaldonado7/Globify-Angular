@@ -1,13 +1,13 @@
 <nav class="desktop-nav" [class.active]="sidebarActive" id="menu">
   <gl-profile></gl-profile>
   <div class="menu-title">
-    <h5>Explorar</h5>
-    <h4>Tu biblioteca</h4>
+    <h4>Search</h4>
+    <h4 class="active">Your Library</h4>
   </div>
-  <a href="#" class="active">Artistas</a>
+  <a href="#" class="active">Artists</a>
   <a href="#">Playlist</a>
   <a href="#">Videos</a>
-  <a href="#">Escuchado recientemente</a>
+  <!-- <a href="#">Escuchado recientemente</a> -->
 </nav>
 <div (click)="toggleSidebar()">
 <gl-toggle></gl-toggle>

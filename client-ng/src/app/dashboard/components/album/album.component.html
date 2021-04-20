@@ -1,4 +1,4 @@
-<h1>Álbumes</h1>
+<h1>Albums</h1>
 <ul>
   <li *ngFor="let album of albums" [class.selected]="album === selectedAlbum">
   <gl-album-list [selectedAlbum]="selectedAlbum" (click)="onSelect(album)" [album]="album"></gl-album-list>

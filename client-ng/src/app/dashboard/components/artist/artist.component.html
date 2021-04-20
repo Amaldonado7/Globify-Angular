@@ -1,4 +1,4 @@
-<h1>Artistas</h1>
+<h1>Artists</h1>
 <ul class="artist">
   <li [class.big]="toggle" [class.active]="artist === selectedArtist" *ngFor="let artist of artists" (click)=artistClicked(artist)>
     <gl-artist-list  [artist]="artist"></gl-artist-list>
